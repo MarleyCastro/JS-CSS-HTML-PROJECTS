@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+    html,body{
+        display: grid;
+        height: 100%;
+        place-items: center;
+        background: whitesmoke;
+    }
+    button{
+        border: 0;
+        background: rgb(0, 0, 255);
+        color: white;
+        border-radius: 6px;
+        padding: 16px 30px;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+    button:hover{
+        box-shadow: 0 0 0 4px #fff,
+        0 0 0 8px #4070fa
+        
+    }
