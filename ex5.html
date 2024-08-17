@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+            color: rgb(0, 0, 0);
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>iniciando DOM</h1>
+    <p>Aqui vai o resultado <strong>DOM</strong> em JavaScript</p> 
+    <div id="msg">clique Aqui</div>
+    <script>
+        
+        /*var corpo = window.document.body  
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'Estou aguardando'*/
+
+        var d = window.document.querySelector('div#msg')
+        d.style.background = 'blue'
+    </script>
+</body>
+</html>
