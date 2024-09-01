@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background: rgb(0, 119, 255);
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /* centralizar div*/
+    padding: 80px; /* Almenta a div*/
+    border-radius: 15px; /* Bordas arredondadas*/
+    color: white;
+}
+
+input{
+    padding: 15px;
+}
+
+button{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color:deepskyblue;
+    cursor: pointer;
+}
+
