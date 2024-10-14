@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Corridas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aplicativo de Corridas</h1>
+    </header>
+    <div class="container">
+        <div id="mapa">
+            <link rel="stylesheet" href="https://www.google.com.br/maps"><!-- Simulação do mapa -->
+            <p>Mapa interativo (exemplo estático)</p>
+        </div>
+        <div class="control-panel">
+            <label for="origem">Origem:</label>
+            <input type="text" id="origem" placeholder="Digite o endereço de origem">
+
+            <label for="destino">Destino:</label>
+            <input type="text" id="destino" placeholder="Digite o endereço de destino">
+
+            <button id="solicitarCorrida">Solicitar Corrida</button>
+
+            <p id="status"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
